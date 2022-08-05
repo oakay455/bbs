@@ -1,0 +1,9 @@
+-- テーブルの構造 `bbs`
+
+CREATE TABLE `bbs` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` text NOT NULL,
+  `title` text NOT NULL,
+  `body` text NOT NULL,
+  `created` datetime NOT NULL,
+  ) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
